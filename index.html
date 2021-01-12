@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+    <title>portfolio</title>
+</head>
+
+<body>
+<!--.header-->    
+    <header>
+        <p class="img_logo" id="top_logo">
+            <img class="logo"  src="portofolio_title4.png" id="portofolio_name">
+        </p>
+    </header>
+<!--/.header-->
+<!--.gnav-->
+    <nav class="gnav">
+        <ul class="gnav_list">
+            <li class="gnav_item">
+                <a class="gnav_link" href="#about_section">ABOUT</a>
+            </li>
+            <li class="gnav_item">
+                <a class="gnav_link" href="#works_section">WORKS</a>
+            </li>
+            <li class="gnav_item">
+                <a class="gnav_link" href="#skill_section">SKILL</a>
+            </li>
+            <li class="gnav_item">
+                <a class="gnav_link" href="#contact_section">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+<!--/.gnav-->
+    <main class="content">
+<!--.about_section-->
+        <section class="about_section section" id="about_section">
+            <div class="inner">
+                <div class="section_heading">
+                    <h2 class="heading_primary">ABOUT</h2>
+                </div>
+                <p class="section_lead">自己紹介</p>
+                <div class="section_body about">
+                    <div class="about_item">
+                        <div class="about_image_wrapper">
+                            <img class="about_image" src="about_img.jpg" alt="">
+                        </div>
+                        <div class="about_body">
+                            <p>こんにちは。なかやまみきと申します。</p>
+                            <p>1997年4月15日生まれの23歳。現在は東京都在住です。<br>
+                                東洋大学経営学部を卒業後、内定先の消防職を家族の介護のためにやむを得ず辞退。<br>
+                                「場所にとらわれず仕事がしたい」という思いから、独学でWebデザインの勉強を開始。<br>
+                            </p>
+
+                            <!-- <p>なかやまみきと申します。</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--/.about_section-->        
+<!--.works_section-->
+        <section class="works_section section" id="works_section">
+            <div class="inner">
+                <div class="section_heading">
+                    <h2 class="heading_primary">WORKS</h2>
+                </div>
+                <p class="section_lead">制作実績</p>
+                <div class="section_body works">
+                    <div class="works_list js_my_gallery" data_pswp_uid="1">
+                        <figure class="works_item">
+                            <a href="daiko_site1.png" data-lightbox="group" data-title="運転代行サイト"><img class="works_image" src="daiko_site1.png" ></a>
+                            <!-- <a href="daiko_site1.png" data-lightbox="demo" data-title="運転代行サイト"> -->
+                            <!-- <a class="works_link works_image_wrapper hover_action" href="daiko_site1.png" data-size="980×668"> -->
+                                <!-- <img class="works_image fadein lazyloaded" src="daiko_site1.png"　data-src="daiko_site1.png" alt=""> -->
+                            </a>
+                            <figcaption class="works_body">
+                                <div class="works_title">代行運転会社サイト</div>
+                                <div class="works_text">Design / Coding </div>
+                                <div class="works_url">
+                                    <a class="works_url_link" href="" target="_blank">link</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--/.works_section-->
+<!--.skill_section-->
+        <section class="skill_section section" id="skill_section">
+            <div class="inner">
+                <div class="section_heading">
+                    <h2 class="heading_primary">SKILL</h2>
+                </div>
+                <p class="section_lead">スキル</p>
+                <div class="section_body skill">
+                    <div class="skill_list">
+                        <div class="skill_item">
+                            <div class="skill_image_wrapper">
+                                <img class="skill_image" src="htmlcss_img.png" width="100" height="100" alt="">
+                            </div>
+                            <div class="skill_body">
+                                <h3 class="skill_title">HTML5/CSS3</h3>
+                                <div class="skill_rating rating">
+                                    <div class="rate rate4">
+                                        <!-- ::before
+                                        ::after -->
+                                    </div>
+                                </div>
+                                <p>基本的なコーディングは問題ありません。</p>
+                            </div>
+                        </div>
+
+                        <div class="skill_item">
+                            <div class="skill_image_wrapper">
+                                <img class="skill_image" src="javascript_img.png" alt="">
+                            </div>
+                            <div class="skill_body">
+                                <h3 class="skill_title">JavaScript</h3>
+                                <div class="skill_rating rating">
+                                    <div class="rate rate1">
+                                        <!-- ::before
+                                        ::after -->
+                                    </div>
+                                </div>
+                                <p>勉強中です。</p>
+                            </div>
+                        </div>
+
+                        <div class="skill_item">
+                            <div class="skill_image_wrapper">
+                                <img class="skill_image" src="illustrator_img.png" alt="">
+                            </div>
+                            <div class="skill_body">
+                                <h3 class="skill_title">Illustrator</h3>
+                                <div class="skill_rating rating">
+                                    <div class="rate rate1">
+                                        <!-- ::before
+                                        ::after -->
+                                    </div>
+                                </div>
+                                <p>勉強中です。</p>
+                            </div>
+                        </div>
+
+                        <div class="skill_item">
+                            <div class="skill_image_wrapper">
+                                <img class="skill_image" src="photoshop_img.png" alt="">
+                            </div>
+                            <div class="skill_body">
+                                <h3 class="skill_title">Photoshop</h3>
+                                <div class="skill_rating rating">
+                                    <div class="rate rate3">
+                                        <!-- ::before
+                                        ::after -->
+                                    </div>
+                                </div>
+                                <p>ロゴ作成でよく使用します。</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--/.skill_section-->
+<!--.contact_section-->
+        <section class="contact_section section" id="contact_section">
+            <div class="inner">
+                <div class="section_heading">
+                    <h2 class="heading_primary">CONTACT</h2>
+                </div>
+                <p class="section_lead">お気軽にお問い合わせください</p>
+                <div class="section_body contact">
+                    <ul class="contact_list">
+                        <li class="contact_item">
+                            <a class="contact_image_wrapper" href="https://twitter.com/mkas3298999" target="_blank">
+                                <img class="contact_image" src="twitter_icon.png" alt="">
+                                <span class="contact_name">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="contact_item">
+                            <a class="contact_image_wrapper" href="https://instagram.com/miki___nakayama" target="_blank">
+                                <img class="contact_image" src="instagram_icon.png" alt="">
+                                <span class="contact_name">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="contact_text" href="mailto:miki.nakayama999@gmail.com">
+                        <img class="mail_icon" src="mail_icon.png" width="20" height="20" alt="">
+                        "miki.nakayama999@gmail.com"
+                    </a>
+                    <!-- <div class="contact_text">miki.nakayama999@gmail.com</div> -->
+                </div>
+            </div>
+        </section>
+<!--/.contact_section-->
+    </main>
+<!--.footer-->
+    <footer class="footer">
+        <a class="page_top" id="js_page_top" href="#top_logo">トップへ戻る</a>
+        <!-- <div class="inner"> -->
+            <p class="copyright">&copy;Miki Nakayama</p>
+        <!-- </div> -->
+    </footer>
+<!--/.footer-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>

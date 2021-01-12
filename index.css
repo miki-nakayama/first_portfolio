@@ -1,0 +1,274 @@
+body{
+    background-color: #928d84;
+}
+
+.logo{
+    padding-top: 300px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+/***ここからgnav***/
+.gnav{
+    font-family: "Cormorant Garamond", serif ;
+    padding-top: 250px;
+}
+.gnav_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}             
+.gnav_item{
+    padding: 0 30px;
+}
+.gnav_link{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: lowercase;
+    color: white;
+}
+.gnav_link:hover{
+    /* color: white; */
+    color: black;
+}
+/***ここまでgnav***/
+
+a{
+    text-decoration: none;
+}
+
+section{
+    /* padding: 120px 0; */
+}
+
+.inner{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding:0 40px ;
+}
+
+.section_heading{
+    /* color: white; */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.heading_primary{
+    margin-top: 150px;
+    font-family: "Cormorant Garamond",serif;
+    font-size: 36px;
+    line-height: 1;
+    display: inline-block;
+    letter-spacing: .2em;
+    /* text-transform: lowercase; */
+    color: white;
+}
+
+.section_lead{
+    margin-bottom: 40px;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.section_lead:before,.section_lead:after{
+    /* background-color: white; */
+    border-top: 1px solid white;
+    content: "";
+    width: 2em;
+    /* height: 1px; */
+}
+
+.section_lead:before{
+    margin-right: 1em;
+}
+
+.section_lead:after{
+    margin-left: 1em;
+}
+
+/***ここからabout***/
+.about_item{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+}
+.about_image_wrapper{
+    flex: 0 0 25%;
+    margin-right: 40px;
+}
+.about_image{
+    width: 250px;
+    border: solid white;
+    border-radius: 50%;
+}
+/* .about_body{
+    flex: 1;
+} */
+.about_body p{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/***ここまでabout***/
+
+/***ここからworks***/
+.works_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.works_item{
+    /* flex: 0 0 32%;
+    margin-right: 1.5%; */
+    margin-bottom: 40px;
+}
+.works_image{
+    width: 30%;
+}
+/***ここまでworks***/
+
+/***ここからskill***/
+.skill_list{
+
+    /* width: 636px; */
+    margin: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill_item{
+    display: flex;
+    flex: 0 0 46%;
+    margin-bottom: 50px;
+}
+.skill_image_wrapper{
+    flex: 0 0 60px;
+    margin-right: 20px;
+}
+.skill_image{
+    margin-left: 80px;
+}
+.skill_title{
+    margin-bottom: 3px;
+    color: white;
+}
+.skill_body p{
+    color: white;
+}
+.rate{
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    letter-spacing: .3em;
+}
+.rate::before{
+    color: #dddddd;
+}
+.rate::before,.rate::after{
+    position: absolute;
+    line-height: 20px;
+    display: inline-block;
+    content: "★★★★★";
+}
+.rate::after{
+    overflow: hidden;
+    white-space: nowrap;
+    color: gold;
+}
+.rate4::after{
+    width: 80px;
+}
+.rate3::after{
+    width: 60px;
+}
+.rate2::after{
+    width: 40px;
+}
+.rate1::after{
+    width: 20px;
+}
+
+/***ここまでskill***/
+
+
+/***ここからcontact***/
+.contact_list{
+    display: flex;
+    justify-content: center;
+    padding-right: 2rem;
+}
+.contact_item{
+    width: 100px;
+    margin: 0 20px;
+    text-align: center;
+}
+.contact_image{
+    width: 100px;
+}
+.contact_name{
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    color: white;
+}
+.contact_name:hover{
+    color: black;
+}
+.contact_text{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 5px;
+    text-align: center;
+    color:#333333;
+}
+/***ここまでcontact***/
+
+/***ここからfooter***/
+.footer{
+    background-color: #333333;
+}
+/***トップへ戻る***/
+.page_top{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+}
+.page_top:hover{
+    color: black;
+}
+/***トップへ戻るここまで***/
+.footer{
+    /* position: absolute; */
+    width: 100%;
+}
+.copyright{
+    width: 100%;
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    color: #8c8c8c;
+    padding: 30px;
+    /* margin-top: 1rem; */
+    background-color: #333333;
+    /* line-height: 1em; */
+}
+/***ここまでfooter***/
